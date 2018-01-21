@@ -1,0 +1,63 @@
+.shapeContainer {
+  width: 700px;
+  height: 650px;
+  border: 1px solid grey;
+  display: block;
+  margin-top: 10px;
+}
+.bordered {
+  width: 700px;
+  height: 650px;
+  border: 1px solid grey;
+  display: block;
+  margin-top: 10px;
+}
+.legend {
+  width: 70px;
+  height: 650px;
+}
+.margin {
+  margin-left: 30px;
+}
+.btn-color {
+  width: 20px;
+  height: 20px;
+}
+.btn-color.white {
+  background: white;
+}
+.btn-color.red {
+  background: red;
+}
+.btn-color.yellow {
+  background: yellow;
+}
+.btn-color.green {
+  background: green;
+}
+.btn-color.blue {
+  background: blue;
+}
+.btn-color.black {
+  background: black;
+}
+.info1 {
+  position: absolute;
+  top: 240px;
+  left: 25%;
+}
+.info2 {
+  position: absolute;
+  top: 150px;
+  left: 25%;
+}
+.info3 {
+  position: absolute;
+  top: 450px;
+  left: 25%;
+}
+.info4 {
+  position: absolute;
+  top: 350px;
+  left: 25%;
+}

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+  <link type="text/css" href="assets/css/main.css" rel="stylesheet" />
+  <link type="text/css" href="components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <script type="text/javascript" src="components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="components/konva/konva.js"></script>
+</head>
+<body>
+  <div class="container-fluid" style="height:95vh">
+    <div class="row content" style="height: 100%">
+      <div class="col-sm-8" style="height: 100%">
+        <h1>Paint</h1>
+        <div style="width: 700px; height: 650px">
+          <button type="button" class="btn btn-default" id="triangle">
+            <span class="glyphicon glyphicon-triangle-top"></span>
+          </button>
+          <button type="button" class="btn btn-default" id="circle">
+            <span class="glyphicon glyphicon-adjust"></span>
+          </button>
+          <button type="button" class="btn btn-default" id="rectangle">
+            <span class="glyphicon glyphicon-minus"></span>
+          </button>
+          <button type="button" class="btn btn-default" id="square">
+            <span class="glyphicon glyphicon-stop"></span>
+          </button>
+          <button type="button" class="btn btn-default" id="pencil">
+            <span class="glyphicon glyphicon-pencil"></span>
+          </button>
+          <button type="button" class="btn btn-default" id="resizecircle">
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <button type="button" class="btn btn-default" id="move">
+            <span class="glyphicon glyphicon-move"></span>
+          </button> 
+          <button type="button" class="btn btn-default btn-color margin white" id="white"></button>
+          <button type="button" class="btn btn-default btn-color red" id="red"></button>
+          <button type="button" class="btn btn-default btn-color yellow" id="yellow"></button>
+          <button type="button" class="btn btn-default btn-color green" id="green"></button>
+          <button type="button" class="btn btn-default btn-color blue" id="blue"></button>
+          <button type="button" class="btn btn-default btn-color black" id="black"></button>
+          <button type="button" class="btn btn-default pull-right" id="delete">
+            <span class="glyphicon glyphicon-trash"></span>
+          </button>
+          <div class="bordered" id="ShapeContainer"></div>
+        </div>
+
+      </div>
+  </div>
+  <script type="text/javascript" src="app/ShapeDrawer.js"></script>
+  <script type="text/javascript" src="app/app.js"></script>
+</body>
+</html>
